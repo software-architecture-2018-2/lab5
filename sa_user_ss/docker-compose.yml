@@ -1,7 +1,7 @@
 version: '2.1'
 services:
   sa_user_ss_db:
-    image: mysql:5.7
+    image: mysql
     ports:
       - "3310:3306"
     environment:
